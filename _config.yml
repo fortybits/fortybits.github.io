@@ -1,0 +1,45 @@
+title: Forty Bits - Blog
+email: bitsforty@gmail.com
+description: >-
+  Blogs about what we have learnt and can be used by others to improve.
+baseurl: ""
+url: "https://fortybits.github.io"
+
+timezone: Asia/Kolkata
+encoding: utf-8
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+
+future: false
+strict_front_matter: true
+
+gist:
+  noscript: false
+highlighter: rouge
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+remote_theme: thelehhman/plainwhite-jekyll
+
+plainwhite:
+  portfolio_image: assets/fortybits.png
+  name: Forty Bits
+  tagline: |
+    Software Development Contributions,
+    Rishikesh, India
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    github: fortybits
+
+  navigation:
+    - title: Posts
+      url: "/posts"
+    - title: About
+      url: "/about"
+
+  sitemap: true
+
+show_excerpts: true
